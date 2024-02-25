@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.typewritter{
+	display: inline-block
+}
+
+.typewritter-text{
+	display: inline-block;
+	overflow: hidden;
+	letter-spacing: 3px;
+	border-right: 3px solid white;
+	animation: typing 3s steps(	40,end),blink .75s step-end infinite;
+	animation-iteration-count: infinite;
+	animation-direction:normal;
+	animation-delay: 2s;
+	white-space: nowrap;
+	box-sizing: border-box;
+	color: white;
+}
+
+@keyframes typing{
+	from{
+		width: 0%
+	}
+	to{
+		width: 105%
+	}
+}
+
+@keyframes blink{
+	from,to{
+		border-color: transparent
+	}
+	50%{border-color: orange}
+}
