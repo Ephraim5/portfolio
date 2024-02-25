@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html oncontextmenu="return false" lang="en">
   <head>
     <title>De-Ephraim</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    <meta name="keywords" content="Ephraim Portfolio">
+	<meta name="keywords" content="Ephraim">
+	<meta name="keywords" content="Ahitub Ephraim">
+	<meta name="keywords" content="Ahitub">
+	<meta name="keywords" content="Ahitub Chukwuemeka Ephraim">
+	<meta name="keywords" content="African Best Web Developers">
+	<meta name="keywords" content="Best Web Developer">
+	<meta name="keywords" content="Best frontend Developer">
+	<meta name="keywords" content="Best backend Developer">
+	<meta name="keywords" content="Best mern stack Developer">
+	<meta name="keywords" content="Best fullstack Developer">
+     <meta name="description" content="portfolio by ephraim one of the best web developer in africa with great designs , Ahitub Ephraim now known as ephraim portfolio ">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+   <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="shortcut icon" href="./images/logo.png" sizes="50" class="ico" type="image/x-icon">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -681,7 +692,33 @@
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+<script>
+document.addEventListener('keydown', function() {
+    if (event.keyCode == 123) {
+      alert("You Can not Do This!");
+      return false;
+    } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+      alert("You Can not Do This!");
+      return false;
+    } else if (event.ctrlKey && event.keyCode == 85) {
+      alert("You Can not Do This!");
+      return false;
+    }
+  }, false);
+  
+  if (document.addEventListener) {
+    document.addEventListener('contextmenu', function(e) {
+      alert("You Can not Do This!");
+      e.preventDefault();
+    }, false);
+  } else {
+    document.attachEvent('oncontextmenu', function() {
+      alert("You Can not Do This!");
+      window.event.returnValue = false;
+    });
+  }
 
+</script>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
