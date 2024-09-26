@@ -124,7 +124,7 @@
 			$this.removeClass('show');
 			$this.find('> a').attr('aria-expanded', false);
 			// $this.find('.dropdown-menu').removeClass('animated-fast fadeInUp show');
-			$this.find('.dropdown-menu').removeClass('show');
+			$this.find('.dropdown-menu').removeClass('shown');
 		// }, 100);
 	});
 
