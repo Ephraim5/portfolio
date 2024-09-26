@@ -49,11 +49,11 @@
 
 			event.preventDefault();
 
-			if ( $('#ftco-nav').is(':visible') ) {
-				$(this).removeClass('active');
-			} else {
-				$(this).addClass('active');	
-			}
+			// if ( $('#ftco-nav').is(':visible') ) {
+			// 	$(this).removeClass('active');
+			// } else {
+			// 	$(this).addClass('active');	
+			// }
 
 			
 			
